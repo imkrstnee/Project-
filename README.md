@@ -22,7 +22,6 @@ The purpose of the Web Protection Project is to create, secure and protect a clo
 #### Part 1: Create an Azure Web App
 
 1. Create Azure web application instance, back-end code, and service plan.
-2. Assign unique IP to web app 
 
 <img width="400" alt="Screenshot 2024-08-24 at 3 50 01 PM" src="https://github.com/user-attachments/assets/349677da-9d39-4ad7-b262-33d032677b68">
 
@@ -47,12 +46,12 @@ The purpose of the Web Protection Project is to create, secure and protect a clo
 - -out cybertail_cert.crt: the ouput filename of certificate
 - -addext "extendedKeyUsage=serverAuth": Indicates how a public key should be used, in this case server authentication
 
-2c. Change to PFX format and download. 
+2c. Convert to PFX format and download. 
 ![hi](https://github.com/user-attachments/assets/2c955dc7-6a01-4317-85f8-e418375bd29d)
 
 3. Import and bind self-signed certificate to web app.
 
-4. Import certificate to Key Vault
+4. Import certificate to Key Vault.
 
 <img width="300" alt="3" src="https://github.com/user-attachments/assets/99725e0b-418d-4120-8606-d5daef988e93">
 
