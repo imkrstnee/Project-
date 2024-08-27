@@ -1,4 +1,4 @@
-# Web Protection Project
+# Web Protection Lab Using Microsoft Azure
 
 ## Objective
 
@@ -14,7 +14,7 @@ The purpose of the Web Protection Project is to create, secure and protect a clo
 ### Tools Used
 
 - Microsoft Azure Portal used to map custom domain and create key vault
-- Cloud Shell to use OpenSSL to generate self-signed certificates
+- OpenSSL to generate self-signed certificates
 
 
 ### Steps
